@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    
+}   
+#nev
+{
+    display: flex;
+    justify-content:space-around;
+    margin: 0px;
+    align-items: center;
+}
+.logo{
+    width: 250px;
+    height: 82px;
+    margin-top: 35px;
+    
+}
+ul{
+    list-style-type:none; 
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    font-weight:40px;
+}
+li a{
+    padding: 10px 24px;
+    height: 18px;
+    text-decoration:none;
+    font-weight:bolder;
+    color:#3D424F;
+
+}
+li:hover a {
+    border-bottom: 5px solid #1A21BC;
+    border-radius:2px;
+    color: #1A21BC;
+
+}
+.masuk a
+{
+    text-decoration:none;
+    color:#081946;
+}
+.masuk:hover a{
+    color:#081946;
+    border-bottom:1px solid;
+}
+.Mendaftar
+{
+    width: 300px;
+    height:172px;
+    padding:14px 22px;
+    text-decoration: none;
+    border:1px ;
+    background:linear-gradient(122.74deg, #1A21BC -28.54%, #166E98 127.06%);;
+    color:white;
+    border-radius :12px;
+
+}
+.Mendaftar:hover
+{
+    box-shadow:1.5px 1px 2px 2px  rgba(20, 43, 54, 0.5);
+}
+.fast p
+{
+    
+    background: #1a22bc18;
+    border-radius: 99px;
+    width:302px;
+    margin-left: 150px;
+    margin-top: 60px;
+    font-size: 20px;
+    padding: 10px;
+    color: #1A21BC;
+}
+.hedar h1
+{
+    width: 693px;
+    height:270px;
+    margin-left:150px;
+    margin-top: 20px;
+    font-size:64px;
+    color:#081946;
+    align-items: center;
+}
+.secand p{
+    margin-left:150px;
+    width: 669px;
+    font-size: 20px;
+    color:#3D424F;
+}
+.Untuk{
+    margin-left: 150px;
+    margin-top: 30px;
+    display:flex;
+    width: 592px;
+    justify-content:space-around;
+    align-items:center;
+}
+.tick {
+    width: 25px;
+}
+.Untuk p{
+    color:#3D424F;  
+}
+ #link{
+     display: inline-flex;
+    margin-left: 150px;
+     margin-top:30px;
+     align-items:center;
+     width:50%;
+
+ }
+ button{
+     width: 262px;
+ }
+ .button a {
+     width: 196px;
+     height:55px;
+    text-decoration:none;
+     border: 1px;
+     font-size:25px;
+     font-weight:600;
+     line-height: 74px;
+     color:whitesmoke ;
+     align-items: center;
+     text-align: center;
+     display: flex;
+     background:  linear-gradient(95.57deg, #1A21BC -37.71%, #166E98 137.71%);
+     border-radius:12px;
+     padding:8px 5px 8px 20px;
+ }
+.button a:hover{
+box-shadow:0px .5px 2px .5px rgba(0, 13, 81, 0.4);
+
+}
+ .button img {
+     width:28px;
+
+ }
+ .video{
+     display: flex;
+    
+ }
+
+ .video a
+ {
+    color: #081946;
+    width: 120px;
+     height:50px;
+    text-decoration:none;
+     font-size:25px;
+     font-weight:600;
+     line-height: 75px;
+    display: flex;
+    margin-left: 13px;
+    text-align: center;
+    align-items: center;
+ }
+ .video a:hover{
+    border-bottom:4px solid #081946;
+ }
+ .video img{
+     width:60px;
+     display: flex;
+     margin-left: 40px;
+ }
+ .carcal{
+     width:100px;
+     background-color:#1A21BC;
+     overflow: hidden;
+     border-radius: 10%;
+     margin:0;
+     align-items: left;
+
+ }
+ .cractar{
+     width: 450px;
+     position: absolute;
+     top:0;
+}
+.foter{
+    margin-top: 50px;
+    margin-left:150px;
+    width: 540px;
+    color: #8B8C8C;
+    font-size: 22px;
+}
